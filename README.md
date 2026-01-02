@@ -29,7 +29,10 @@ An automatic solar street light system that intelligently turns **ON at night wh
 | ---------- | ----------- |
 | LDR        | A0          |
 | PIR Sensor | D2          |
-
+| All VCC    | 5V          |
+| LED +ve    | D7          |
+| LED -ve    | GND         |
+| All GND    | GND         |
 
 ---
 
