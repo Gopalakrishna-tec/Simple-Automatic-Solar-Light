@@ -18,7 +18,6 @@ An automatic solar street light system that intelligently turns **ON at night wh
 * Arduino Uno
 * LDR (Light Dependent Resistor)
 * PIR Motion Sensor
-* Relay Module
 * LED / Street Light
 * Resistors & Connecting Wires
 
@@ -30,9 +29,7 @@ An automatic solar street light system that intelligently turns **ON at night wh
 | ---------- | ----------- |
 | LDR        | A0          |
 | PIR Sensor | D2          |
-| Relay IN   | D9          |
-| Relay VCC  | 5V          |
-| Relay GND  | GND         |
+
 
 ---
 
