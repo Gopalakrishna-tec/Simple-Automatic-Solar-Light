@@ -31,8 +31,8 @@ An automatic solar street light system that intelligently turns **ON at night wh
 | PIR Sensor | D2          |
 | All VCC    | 5V          |
 | All GND    | GND         |
-| LED +ve    | D7          |
-| LED -ve    | GND         |
+| LED (+)    | D7          |
+| LED (-)    | GND         |
 
 ---
 
