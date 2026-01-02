@@ -49,46 +49,6 @@ An automatic solar street light system that intelligently turns **ON at night wh
 
 ---
 
-## 💻 Arduino Code
-
-```cpp
-// Solar Street Light using PIR and LDR
-
-int ldrPin = A0;
-int pirPin = 2;
-int relayPin = 9;
-
-int ldrThreshold = 500;
-
-void setup() {
-  pinMode(ldrPin, INPUT);
-  pinMode(pirPin, INPUT);
-  pinMode(relayPin, OUTPUT);
-
-  digitalWrite(relayPin, LOW);
-  Serial.begin(9600);
-}
-
-void loop() {
-  int ldrValue = analogRead(ldrPin);
-  int motion = digitalRead(pirPin);
-
-  if (ldrValue < ldrThreshold) {
-    if (motion == HIGH) {
-      digitalWrite(relayPin, HIGH);
-    } else {
-      digitalWrite(relayPin, LOW);
-    }
-  } else {
-    digitalWrite(relayPin, LOW);
-  }
-
-  delay(200);
-}
-```
-
----
-
 ## 📷 Output
 
 * **Daytime** → Light OFF
